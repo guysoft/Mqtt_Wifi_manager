@@ -5,6 +5,10 @@ This is a hackathon result.
 One this is flashed, its all self-contained. You can set up an MQTT client that will push updates via a wifi of your choice.
 No hardcoded strings. You can also reset the settings by pressing "reset" sevral quick times.
 
+You can see the project in action in this video:
+
+[![Demo of project working](http://img.youtube.com/vi/zjSd5B13HYE/0.jpg)](http://www.youtube.com/watch?v=zjSd5B13HYE "Demo of project working")
+
 
 Hardware Requirements
 ======================
@@ -25,6 +29,7 @@ Arduino Libs used:
 * DoubleResetDetect
 * ArduinoJson (version 5.x, does not work with version 6.x+)
 * WiFiManager
+* PubSub
 
 Flash mqtt_wifi_manager_moisture_sensor.ino to the ESP.
 
@@ -34,7 +39,7 @@ Usage
 =====
 
 1. Press reset sevral times, a wifi access point should appear with the name ESPxxxxxxxx (where x is the id number of the ESP).
-2. Connect to that access point and go to [http://192.168.4.1](http://192.168.4.1). You should see a webpage to set up.
+2. Connect to that access point and go to the router IP. For example, if your phone/laptop connected to 192.148.4.xxx then connect to [http://192.168.4.1](http://192.168.4.1). You should see a webpage to set up.
 3. Pick your access point you wish to connect to and set up the password.
 4. Set a mqtt server and mqtt topic to send to
 5. Save, and your ESP should connect and start sending the moisture data as a percentage
