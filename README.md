@@ -5,9 +5,7 @@ This is a hackathon result.
 One this is flashed, its all self-contained. You can set up an MQTT client that will push updates via a wifi of your choice.
 No hardcoded strings. You can also reset the settings by pressing "reset" sevral quick times.
 
-You can see the project in action in this video:
-
-[![Demo of project working](http://img.youtube.com/vi/zjSd5B13HYE/0.jpg)](http://www.youtube.com/watch?v=zjSd5B13HYE "Demo of project working")
+[You can see the project in action in this video](http://www.youtube.com/watch?v=zjSd5B13HYE)
 
 
 Hardware Requirements
