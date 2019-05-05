@@ -23,13 +23,13 @@ Hardware Setup
 Software
 ========
 
-Arduino Libs used:
-* DoubleResetDetect
-* ArduinoJson (version 5.x, does not work with version 6.x+)
-* WiFiManager
-* PubSub
+Arduino Libs used (all can be downloaded from the Library Manager):
+* [DoubleResetDetect](https://github.com/jenscski/DoubleResetDetect)
+* [ArduinoJson](https://arduinojson.org/v5/doc/installation/) (version 5.x, does not work with version 6.x+)
+* [WiFiManager](https://github.com/tzapu/WiFiManager)
+* [PubSub](https://github.com/knolleary/pubsubclient)
 
-Flash mqtt_wifi_manager_moisture_sensor.ino to the ESP.
+Flash [mqtt_wifi_manager_moisture_sensor.ino](https://github.com/guysoft/Mqtt_Wifi_manager/blob/master/mqtt_wifi_manager_moisture_sensor/mqtt_wifi_manager_moisture_sensor.ino) to the ESP.
 
 You are done, thats is it!
 
