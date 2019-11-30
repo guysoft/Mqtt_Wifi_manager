@@ -10,6 +10,7 @@ The supported sensors are:
 
 * Moisture sensore
 * Tempreture sensor DS18B20
+* PH sensor - [like this one](https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/)
 
 [You can see the project in action in this video](http://www.youtube.com/watch?v=zjSd5B13HYE)
 
@@ -29,15 +30,26 @@ Moisture sensor
 ---------------
 
 1. Connect pin VCC of the moisture sensor to VCC on your ESP8266
-2. Connect pinn GND of the moisture sensor to the GND on your ESP8266
+2. Connect pin GND of the moisture sensor to the GND on your ESP8266
 3. Connect A0 pin on the moisture sensor to the A0 pin on your ESP8266
 
 
 Tempreture sensor
 -----------------
 1. Connect pin VCC of the moisture sensor to VCC on your ESP8266
-2. Connect pinn GND of the moisture sensor to the GND on your ESP8266
+2. Connect pin GND of the moisture sensor to the GND on your ESP8266
 3. Connect the data pin to pin D4
+
+
+PH sensor
+---------
+
+1. Connect pin VCC of the moisture sensor to VCC on your ESP8266
+2. Connect pin GND of the moisture sensor to the GND on your ESP8266
+2. Connect second pin GND of the moisture sensor to the GND on your ESP8266
+3. Connect P0 pin on the moisture sensor to the A0 pin on your ESP8266
+4. Preform [calibraion of POTs as explained here](https://www.botshop.co.za/how-to-use-a-ph-probe-and-sensor/)
+
 
 
 Software
@@ -74,6 +86,11 @@ For tempreture sensor
 
 Flash [mqtt_wifi_manager_temp_sensor.ino](https://github.com/guysoft/Mqtt_Wifi_manager/blob/master/mqtt_wifi_manager_temp_sensor/mqtt_wifi_manager_temp_sensor.ino) to the ESP.
 
+For PH sensor
+-------------
+
+Flash [mqtt_wifi_manager_temp_sensor.ino](https://github.com/guysoft/Mqtt_Wifi_manager/blob/master/mqtt_wifi_manager_ph_sensor/mqtt_wifi_manager_ph_sensor.ino) to the ESP.
+
 You are done, thats is it!
 
 Usage
@@ -86,5 +103,5 @@ Usage
 5. Save, and your ESP should connect and start sending the moisture data as a percentage
 6. If you want to enter the setup mode again, press the reset button quickly for sevral times, and you should get the access point page again.
 
-Thats it, enjoy. This is a crude hackaton code, so if you like it and want to PR and make it stable you are more than welcome!
+Thats it, enjoy. Some of this is still a crude hackaton code, so if you like it and want to PR and make it stable you are more than welcome!
 
