@@ -57,6 +57,12 @@ Tempreture sensor libraries
 * OneWire
 
 
+
+Flashing
+--------
+
+When flashing, set in your Arduino IDE the flash size to be 4M and above, you want to have flah space to start the saved settings of wifi manager.
+
 For moisture sensor
 -------------------
 
