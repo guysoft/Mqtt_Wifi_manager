@@ -1,7 +1,7 @@
 Mqtt_Wifi_manager
 =================
 
-This is a hackathon result. Which has been cleand up a bit since.
+This is a hackathon result. Which has been cleaned up a bit since.
 
 One this is flashed, its all self-contained. You can set up an MQTT client that will push updates via a wifi of your choice.
 No hardcoded strings. You can also reset the settings by pressing "reset" sevral quick times.
